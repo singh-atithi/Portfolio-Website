@@ -1,97 +1,93 @@
-
-*{
-  margin: 0;  
+* {
+  margin: 0;
   padding: 0;
-  border:border-box;        
-  font-family: 'popins' sans-serif;
+  border: border-box;
+  font-family: "popins" sans-serif;
 }
-body{ 
-    color: #ededed;
+body {
+  color: #ededed;
 }
-.main{
+.main {
   background: url(background.png) no-repeat;
   background-size: cover;
-  background-position: center;  
+  background-position: center;
 }
-header{
-    position: relative;
-    top: 0;
-    left: 0;
-    /* height:100px;   */
-    width: 100%;
-    padding: 20px;
-    background: transparent;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 100 ;
+header {
+  position: relative;
+  top: 0;
+  left: 0;
+  /* height:100px;   */
+  width: 100%;
+  padding: 20px;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
 }
-.logo{
+.logo {
   font-size: 35px;
   color: white;
   text-decoration: none;
   font-weight: 600;
   margin-left: 120px;
 }
-.navbar{
+.navbar {
   position: relative;
   right: 100px;
 }
-.navbar a{
+.navbar a {
   font-size: 18px;
   color: #ededed;
   text-decoration: none;
   font-weight: 500;
   margin-left: 35px;
-  transition: .3s;
+  transition: 0.3s;
 }
 .navbar a:hover,
-.navbar a.active{
+.navbar a.active {
   color: #00abf0;
-
 }
-.home{
+.home {
   height: 100vh;
 
   display: flex;
   align-items: center;
   padding: 0 10%;
 }
-.home-cotent{
+.home-cotent {
   max-width: 600px;
   margin-top: -100px;
 }
-.home-cotent h1{
+.home-cotent h1 {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.2;
 }
-.home-cotent h3{
+.home-cotent h3 {
   font-size: 32px;
   font-weight: 700;
   margin-top: 10px;
   color: #00abf0;
   margin-bottom: 20px;
 }
-.home-cotent p{
+.home-cotent p {
   font-size: 16px;
   margin-top: 20px 0 40px;
-
 }
-.home-cotent .btn-box{
+.home-cotent .btn-box {
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
   width: 345px;
   height: 50px;
-
 }
-.btn-box{
+.btn-box {
   margin-top: 20px;
 }
-.btn-box a{
+.btn-box a {
   position: relative;
   display: inline-flex;
-  justify-content: center ;
+  justify-content: center;
   align-items: center;
   width: 150px;
   height: 46px;
@@ -101,21 +97,21 @@ header{
   font-size: 19px;
   color: #081b29;
   text-decoration: none;
-  font-weight: 600  ;
-  letter-spacing:1px;
+  font-weight: 600;
+  letter-spacing: 1px;
   z-index: 1;
   overflow: hidden;
-  transition: .5s;
+  transition: 0.5s;
 }
-.btn-box a:hover{
+.btn-box a:hover {
   color: #00abf0;
 }
-.btn-box a:nth-child(2){
+.btn-box a:nth-child(2) {
   background: transparent;
   color: #00abf0;
 }
 
-.btn-box a::before{
+.btn-box a::before {
   content: "";
   position: absolute;
   top: 0;
@@ -124,25 +120,25 @@ header{
   height: 100%;
   background: #081b29;
   z-index: -1;
-  transition: .5s;
+  transition: 0.5s;
 }
-.btn-box a:hover:before{
+.btn-box a:hover:before {
   width: 100%;
 }
-.btn-box a:nth-child(2)::before{
+.btn-box a:nth-child(2)::before {
   /* background: transparent; */
   background-color: #00abf0;
 }
-.btn-box a:nth-child(2):hover{
+.btn-box a:nth-child(2):hover {
   color: #081b29;
 }
-.home-socialmedia{
+.home-socialmedia {
   position: absolute;
   bottom: 40px;
   background-color: red;
   width: 170px;
 }
-.home-imghover{
+/* .home-imghover{
   position: absolute;
   top: 0;
   right:20px;
@@ -154,4 +150,9 @@ header{
 .home-imghover:hover{
   background: black;
   opacity: 0.7;
+} */
+.secpage {
+  background-color: black;
+  height: 575px;
+  width: 100%;
 }
