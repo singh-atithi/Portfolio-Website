@@ -138,7 +138,19 @@ header {
   background-color: red;
   width: 170px;
 }
-
+/* .home-imghover{
+  position: absolute;
+  top: 0;
+  right:20px;
+  height:100%;
+  width: 500px;
+  background: transparent;
+  transition: 3s;
+}
+.home-imghover:hover{
+  background: black;
+  opacity: 0.7;
+} */
 .secpage {
   background-color: black;
   height: 575px;
