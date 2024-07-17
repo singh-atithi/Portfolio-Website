@@ -18,7 +18,7 @@ header {
   left: 0;
   /* height:100px;   */
   width: 100%;
-  padding: 20px;
+  padding-top: 20px;
   background: transparent;
   display: flex;
   justify-content: space-between;
@@ -35,6 +35,7 @@ header {
 .navbar {
   position: relative;
   right: 100px;
+  /* display: block; */
 }
 .navbar a {
   font-size: 18px;
@@ -56,11 +57,12 @@ header {
   padding: 0 10%;
 }
 .home-cotent {
-  max-width: 600px;
+  max-width: 50%;
   margin-top: -100px;
 }
+
 .home-cotent h1 {
-  font-size: 56px;
+  font-size: 3rem;
   font-weight: 700;
   line-height: 1.2;
 }
@@ -138,6 +140,34 @@ header {
   background-color: red;
   width: 170px;
 }
+@media (max-width: 790px) {
+  .home {
+    border: border-box;
+    width: 100%;
+    padding: 0;
+  }
+  .home-cotent {
+    width: 100%;
+    max-width: 100%;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+  .main {
+    background: none;
+    background-color: black;
+  }
+  .logo{
+    margin-left: 20px;
+  }
+  .navbar a {
+    display: none;
+}
+.menu-button {
+    display: block;
+}
+
+}
+
 /* .home-imghover{
   position: absolute;
   top: 0;
